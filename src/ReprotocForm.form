@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ReprotocForm">
+  <grid id="27dc6" binding="panelRoot" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="579" height="378"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ca0b2" class="javax.swing.JLabel" binding="excuteScriptLabel">
+        <constraints/>
+        <properties>
+          <text value="Excute script"/>
+        </properties>
+      </component>
+      <component id="95724" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Path:"/>
+        </properties>
+      </component>
+      <component id="80b93" class="javax.swing.JTextField" binding="textFieldPath">
+        <constraints/>
+        <properties>
+          <editable value="false"/>
+          <preferredSize width="500" height="24"/>
+          <text value="please input your script path"/>
+          <toolTipText value="please input your script path"/>
+        </properties>
+        <clientProperties>
+          <caretWidth class="java.lang.Integer" value="1000"/>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="f14b0" class="javax.swing.JButton" binding="buttonselect">
+        <constraints/>
+        <properties>
+          <text value="..."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
